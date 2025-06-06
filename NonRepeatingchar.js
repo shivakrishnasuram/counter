@@ -1,20 +1,20 @@
-// function nonrepeating(stringgy) {
-//     let nonstring = ""
-//     for (let i = 0; i < stringgy.length; i++) {
-//         let count = 0
-//         for (let j = 0; j < stringgy.length; j++) {
-//             if (i !== j && stringgy[i] === stringgy[j]) {
-//                 count++
-//                 break
-//             }
-//         }
-//         if (count === 0) {
-//             nonstring += stringgy[i]
-//         }
-//     }
-//     return nonstring
-// }
-// console.log(nonrepeating("shivakrishnaisgoodboy"))
+function nonrepeating(stringgy) {
+    let nonstring = ""
+    for (let i = 0; i < stringgy.length; i++) {
+        let count = 0
+        for (let j = 0; j < stringgy.length; j++) {
+            if (i !== j && stringgy[i] === stringgy[j]) {
+                count++
+                break
+            }
+        }
+        if (count === 0) {
+            nonstring += stringgy[i]
+        }
+    }
+    return nonstring
+}
+console.log(nonrepeating("shivakrishnaisgoodboy"))
 
 // function nonrepeating(stringyy){
 //     let nonstring =""
