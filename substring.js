@@ -14,5 +14,4 @@ function countSubstringOccurrences(string, substring) {
     }
     return count;
 }
-
 console.log(countSubstringOccurrences("shivakrishnaisgoodboy", "is"));

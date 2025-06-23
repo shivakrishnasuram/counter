@@ -9,6 +9,4 @@ function characterFrequency(string) {
     }
     return frequency;
 }
-
 console.log(characterFrequency("shivakrishnaisgoodboy"));
-

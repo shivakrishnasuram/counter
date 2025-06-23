@@ -12,17 +12,16 @@
 // function greet(name) {
 //     return `Hello, ${name}!`;
 //   }
-  
 //   console.log(greet("Alice")); 
-  
 // var x  =function(a,b){
 //     return a+b
 // }
 // console.log(x(1,2))
-var z=(a)=>{
-    return `hello ${a}`}
+var z = (a) => {
+    return `hello ${a}`
+}
 
-var y=(a)=>{ 
+var y = (a) => {
     return `hello ${a}`
 }
 
